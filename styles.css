@@ -27,9 +27,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    /* Width matching the content column */
     margin: 0 auto;
-    /* Center the menu horizontally */
+    margin-top: 30px;
 }
 
 .menu li {
@@ -52,8 +51,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 170vh;
-    /* Adjust the height as needed */
+    height: 100vh;
     background-color: #ffeebc;
 }
 
@@ -62,7 +60,6 @@ main {
     text-align: left;
     font-family: Arial;
     background-color: #fff8e4;
-    /* Background color for the column */
     padding: 60px;
     padding-top: 20px;
     border-radius: 5px;
@@ -80,11 +77,8 @@ main {
 
 .column {
     width: 45%;
-    /* Adjust width for each column */
     background-color: #fff8e4;
-    /* padding: 20px; */
     border-radius: 5px;
-
 }
 
 .column h2 {
