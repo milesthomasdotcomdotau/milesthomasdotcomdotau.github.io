@@ -1,0 +1,117 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #ffeebc;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 78px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    /* Width matching the content column */
+    margin: 0 auto;
+    /* Center the menu horizontally */
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170vh;
+    /* Adjust the height as needed */
+    background-color: #ffeebc;
+}
+
+.content {
+    width: 50%;
+    text-align: left;
+    font-family: Arial;
+    background-color: #fff8e4;
+    /* Background color for the column */
+    padding: 60px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+
+.top-content {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 45%;
+    /* Adjust width for each column */
+    background-color: #fff8e4;
+    /* padding: 20px; */
+    border-radius: 5px;
+
+}
+
+.column h2 {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #6f6c63;
+}
+
+p {
+    padding-top: 20px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: smaller;
+}
+
+.attribution {
+    padding-top: 0;
+    font-style: italic;
+    font-size: smaller;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
